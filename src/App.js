@@ -8,7 +8,7 @@ export default function App() {
     const [showCard, setShowCard] = useState(false);
 
     const handleShowCard = () => {
-        setShowCard(true);
+        setShowCard(!showCard);
     };
     const [name, setName] = useState('');
     const [age, setAge] = useState('');
