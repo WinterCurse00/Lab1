@@ -18,10 +18,10 @@ export default function MediaControlCard() {
             <Box sx={{ display: 'flex', flexDirection: 'column' }}>
                 <CardContent sx={{ flex: '1 0 auto' }}>
                     <Typography component="div" variant="h5">
-                        Live From Space
+                       John Cena
                     </Typography>
                     <Typography variant="subtitle1" color="text.secondary" component="div">
-                        Mac Miller
+
                     </Typography>
                 </CardContent>
                 <Box sx={{ display: 'flex', alignItems: 'center', pl: 1, pb: 1 }}>
@@ -39,7 +39,7 @@ export default function MediaControlCard() {
             <CardMedia
                 component="img"
                 sx={{ width: 151 }}
-                image="https://i.kym-cdn.com/photos/images/newsfeed/002/219/139/6e0.jpg"
+                image="https://external-preview.redd.it/-dxvZq88Rk1uVrXWTQLPfRoJzV0EjOu3OujFWitAiWk.png?format=pjpg&auto=webp&s=3ae86a50d45406f8e511ae8efcd91d5c889131de"
                 alt="Live from space album cover"
             />
         </Card>
